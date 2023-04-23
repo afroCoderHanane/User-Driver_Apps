@@ -50,22 +50,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAxzVeeYb-piwL44mzgDspfvUtyjXunqLU',
-    appId: '1:1078898555505:android:c9d7606474fabfc2faf9d0',
-    messagingSenderId: '1078898555505',
-    projectId: 'cmc-shuttle-driver-user-app',
-    databaseURL: 'https://cmc-shuttle-driver-user-app-default-rtdb.firebaseio.com',
-    storageBucket: 'cmc-shuttle-driver-user-app.appspot.com',
+    apiKey: '{YOUR API KEY}',
+    appId: '{YOUR APP ID}',
+    messagingSenderId: '{YOUR MESSAGE ID}',
+    projectId: '{YOUR PROJECT ID}',
+    databaseURL: '{YOUR DB URL}',
+    storageBucket: '{YOUR STORAGE BUCKET}',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBFPoOAqCEgejBqPmb9LzGO6Kd92ebsxYY',
-    appId: '1:1078898555505:ios:7e0019573743e87cfaf9d0',
-    messagingSenderId: '1078898555505',
-    projectId: 'cmc-shuttle-driver-user-app',
-    databaseURL: 'https://cmc-shuttle-driver-user-app-default-rtdb.firebaseio.com',
-    storageBucket: 'cmc-shuttle-driver-user-app.appspot.com',
-    iosClientId: '1078898555505-jpbq8d0h8i8tggiolc8vubtsfob5ogr9.apps.googleusercontent.com',
-    iosBundleId: 'com.example.driverApp',
+    apiKey: '{YOUR API KEY}',
+    appId: '{YOUR APP ID}',
+    messagingSenderId: '{YOUR MESSAGE ID}',
+    projectId: '{YOUR PROJECT ID}',
+    databaseURL: '{YOUR DB URL}',
+    storageBucket: '{YOUR STORAGE BUCKET}',
+    iosClientId: '{YOUR IOS CLIENT ID}',
+    iosBundleId: '{YOUR IOS BUNDLE ID}',
   );
 }
